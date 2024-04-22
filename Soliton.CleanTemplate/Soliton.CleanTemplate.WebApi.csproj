@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soliton.CleanTemplate.Adapters.Mongo\Soliton.CleanTemplate.Adapters.Mongo.csproj" />
+    <ProjectReference Include="..\Soliton.CleanTemplate.Core\Soliton.CleanTemplate.Core.csproj" />
+    <ProjectReference Include="..\Soliton.CleanTemplate.WebApi.Dto\Soliton.CleanTemplate.WebApi.Dto.csproj" />
+    <ProjectReference Include="..\Soliton.Shared\Soliton.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@Soliton.CleanTemplate_HostAddress = http://localhost:5010
+
+GET {{Soliton.CleanTemplate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
